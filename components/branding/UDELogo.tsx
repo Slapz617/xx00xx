@@ -127,17 +127,17 @@ export function UDELogo({
           {/* Stars */}
           <circle cx="30" cy="30" r="1" fill={colors.glow} opacity="0.8">
             {animated && (
-              <animate attributeName="opacity" values="0.3;1;0.3" dur="3s" repeatCount="indefinite" />
+              <animate attributeName="opacity\" values="0.3;1;0.3\" dur="3s\" repeatCount="indefinite" />
             )}
           </circle>
           <circle cx="280" cy="45" r="1.5" fill={colors.accent} opacity="0.6">
             {animated && (
-              <animate attributeName="opacity" values="0.2;0.8;0.2" dur="4s" repeatCount="indefinite" />
+              <animate attributeName="opacity\" values="0.2;0.8;0.2\" dur="4s\" repeatCount="indefinite" />
             )}
           </circle>
           <circle cx="290" cy="120" r="1" fill={colors.secondary} opacity="0.7">
             {animated && (
-              <animate attributeName="opacity" values="0.4;1;0.4" dur="2.5s" repeatCount="indefinite" />
+              <animate attributeName="opacity\" values="0.4;1;0.4\" dur="2.5s\" repeatCount="indefinite" />
             )}
           </circle>
           
@@ -180,17 +180,17 @@ export function UDELogo({
           {/* UFO lights */}
           <circle cx="-10" cy="15" r="1.5" fill={colors.glow} opacity="0.8">
             {animated && (
-              <animate attributeName="opacity" values="0.3;1;0.3" dur="1s" repeatCount="indefinite" />
+              <animate attributeName="opacity\" values="0.3;1;0.3\" dur="1s\" repeatCount="indefinite" />
             )}
           </circle>
           <circle cx="0" cy="15" r="1.5" fill={colors.glow} opacity="0.8">
             {animated && (
-              <animate attributeName="opacity" values="0.3;1;0.3" dur="1s" begin="0.3s" repeatCount="indefinite" />
+              <animate attributeName="opacity\" values="0.3;1;0.3\" dur="1s\" begin="0.3s\" repeatCount="indefinite" />
             )}
           </circle>
           <circle cx="10" cy="15" r="1.5" fill={colors.glow} opacity="0.8">
             {animated && (
-              <animate attributeName="opacity" values="0.3;1;0.3" dur="1s" begin="0.6s" repeatCount="indefinite" />
+              <animate attributeName="opacity\" values="0.3;1;0.3\" dur="1s\" begin="0.6s\" repeatCount="indefinite" />
             )}
           </circle>
         </g>
@@ -301,7 +301,7 @@ export function UDECompactLogo({
           <ellipse cx="0" cy="5" rx="8" ry="3" fill="url(#compactGradient)" filter="url(#compactGlow)" />
           <circle cx="0" cy="5" r="1" fill={colors.glow} opacity="0.8">
             {animated && (
-              <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite" />
+              <animate attributeName="opacity\" values="0.5;1;0.5\" dur="2s\" repeatCount="indefinite" />
             )}
           </circle>
         </g>
@@ -373,7 +373,7 @@ export function UDEIconLogo({
             opacity="0.4"
           >
             {animated && (
-              <animate attributeName="opacity" values="0.2;0.6;0.2" dur="2s" repeatCount="indefinite" />
+              <animate attributeName="opacity\" values="0.2;0.6;0.2\" dur="2s\" repeatCount="indefinite" />
             )}
           </path>
           
@@ -384,17 +384,17 @@ export function UDEIconLogo({
           {/* UFO lights */}
           <circle cx="-4" cy="8" r="1" fill={colors.glow}>
             {animated && (
-              <animate attributeName="opacity" values="0.5;1;0.5" dur="1s" repeatCount="indefinite" />
+              <animate attributeName="opacity\" values="0.5;1;0.5\" dur="1s\" repeatCount="indefinite" />
             )}
           </circle>
           <circle cx="0" cy="8" r="1" fill={colors.glow}>
             {animated && (
-              <animate attributeName="opacity" values="0.5;1;0.5" dur="1s" begin="0.33s" repeatCount="indefinite" />
+              <animate attributeName="opacity\" values="0.5;1;0.5\" dur="1s\" begin="0.33s\" repeatCount="indefinite" />
             )}
           </circle>
           <circle cx="4" cy="8" r="1" fill={colors.glow}>
             {animated && (
-              <animate attributeName="opacity" values="0.5;1;0.5" dur="1s" begin="0.66s" repeatCount="indefinite" />
+              <animate attributeName="opacity\" values="0.5;1;0.5\" dur="1s\" begin="0.66s\" repeatCount="indefinite" />
             )}
           </circle>
         </g>
