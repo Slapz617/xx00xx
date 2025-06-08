@@ -13,7 +13,8 @@ import {
   Sprout, 
   PieChart, 
   Activity,
-  Zap
+  Zap,
+  User
 } from 'lucide-react';
 
 interface NavigationProps {
@@ -34,6 +35,7 @@ export function Navigation({ balance, loading, activeTab, onTabChange }: Navigat
     { id: 'portfolio', label: 'Portfolio', icon: PieChart },
     { id: 'analytics', label: 'Analytics', icon: Activity },
     { id: 'create', label: 'Create Token', icon: Coins },
+    { id: 'account', label: 'Account', icon: User },
   ];
 
   return (

@@ -14,6 +14,7 @@ import { YieldFarming } from './farming/YieldFarming';
 import { Portfolio } from './portfolio/Portfolio';
 import { Analytics } from './analytics/Analytics';
 import { TokenCreator } from './token/TokenCreator';
+import { AccountManager } from './auth/AccountManager';
 import { ApiSettings } from './settings/ApiSettings';
 
 export function MainDexInterface() {
@@ -73,6 +74,8 @@ export function MainDexInterface() {
         return <Analytics />;
       case 'create':
         return <TokenCreator />;
+      case 'account':
+        return <AccountManager />;
       case 'settings':
         return <ApiSettings />;
       default:
